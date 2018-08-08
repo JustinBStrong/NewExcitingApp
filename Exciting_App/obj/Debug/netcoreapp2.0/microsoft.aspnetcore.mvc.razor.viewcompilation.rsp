@@ -1,0 +1,14 @@
+/Users/Justin/Projects/Exciting_App/Exciting_App
+--output-path=obj/Debug/netcoreapp2.0/
+--application-name=Exciting_App
+--content-root=/Users/Justin/Projects/Exciting_App/Exciting_App
+--file=/Users/Justin/Projects/Exciting_App/Exciting_App/Index.cshtml
+--file=/Users/Justin/Projects/Exciting_App/Exciting_App/UploadFiles/UploadProcessed.cshtml
+--file=/Users/Justin/Projects/Exciting_App/Exciting_App/Views/Home/GenericComparison.cshtml
+--file=/Users/Justin/Projects/Exciting_App/Exciting_App/Views/Home/Upload.cshtml
+--file=/Users/Justin/Projects/Exciting_App/Exciting_App/Views/Shared/Error.cshtml
+--file=/Users/Justin/Projects/Exciting_App/Exciting_App/Views/Shared/Post.cshtml
+--file=/Users/Justin/Projects/Exciting_App/Exciting_App/Views/Shared/_Layout.cshtml
+--file=/Users/Justin/Projects/Exciting_App/Exciting_App/Views/Shared/_ValidationScriptsPartial.cshtml
+--file=/Users/Justin/Projects/Exciting_App/Exciting_App/Views/_ViewImports.cshtml
+--file=/Users/Justin/Projects/Exciting_App/Exciting_App/Views/_ViewStart.cshtml

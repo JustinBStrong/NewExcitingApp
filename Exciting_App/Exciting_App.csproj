@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
+    <PackageReference Include="NPOI" Version="2.3.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\images\Copy of DataMartExport06142018.xls" />
+    <Content Remove="Views\Shared\UploadProcessed.cshtml" />
+    <Content Remove="Post.cshtml" />
+    <Content Remove="Views\Home\UploadProcessed.cshtml" />
+    <Content Remove="Views\Home\Index.cshtml" />
+    <Content Remove="Views\Home\Contact.cshtml" />
+    <Content Remove="Views\Home\About.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="AppToServerComparison.cs" />
+    <Compile Remove="Views\Home\Middleware.cs" />
+    <Compile Remove="Views\Shared\Middleware.cs" />
+    <Compile Remove="Views\Home\UploadProcessed.cs" />
+    <Compile Remove="Views\UploadProcessed.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="EmptyCSSFile.css" />
+    <None Remove="Views\Home\Justin.css" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,55 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+<header>
+</header>
+<h2>Generic Comparison</h2>
+<form method="post" enctype="multipart/form-data" asp-controller="GenericComparisonUpload" asp-action="">
+    <label for="FileOne">Excel file One (.xls): </label><input type="file" name="FileOne" />    
+    <label for="FileTwo">Excel file Two (.xls): </label><input type="file" name="FileTwo" />
+    <table>
+        <thead>
+        <th scope="col"></th>
+        <th scope="col">Sheet <br />Name </th>
+        <th scope="col">Primary <br />Key <br /> Indexes</th>
+        <th scope="col">First <br />Comparison <br /> Indexes</th>
+        <th scope="col">Second <br />Comparison <br /> Indexes</th>
+        <th scope="col">Third <br />Comparison <br /> Indexes</th>
+        </thead>
+        <tbody>
+            
+
+            <label for="FileOneSourceName">File One Name: </label><input type="text" name="FileOneSourceName" size="8" /></td>
+
+            <tr>
+                <td><label for="FileOneSourceName">File One Name: </label><input type="text" name="FileOneSourceName" value="CMDB" size="8" /></td>
+                <td><input type="text" name="FileOneSheetName" /></td>
+                <td><input type="number" name="FileOnePrimaryKeyIndex" style="width: 3em" /></td>
+                <td><input type="number" name="FileOneComparisonOneIndex" style="width: 3em" /></td>
+                <td><input type="number" name="FileOneComparisonTwoIndex" style="width: 3em" /></td>
+                <td><input type="number" name="FileOneComparisonThreeIndex" style="width: 3em" /></td>
+            </tr>
+
+
+            <tr>
+                <td><label for="FileTwoSourceName">File Two Name: </label><input type="text" name="FileTwoSourceName" value="DataMart" size="8" /></td>
+                <td><input type="text" name="FileTwoSheetName" /></td>
+                <td><input type="number" name="FileTwoPrimaryKeyIndex" style="width: 3em" /></td>
+                <td><input type="number" name="FileTwoComparisonOneIndex" style="width: 3em" /></td>
+                <td><input type="number" name="FileTwoComparisonTwoIndex" style="width: 3em" /></td>
+                <td><input type="number" name="FileTwoComparisonThreeIndex" style="width: 3em" /></td>
+            </tr>
+            <!--<tr>
+                <td><label> Attribute Names: </label></td>
+                <td></td>
+                <td><input type="text" name="PrimaryKeyName" style="width: 3em" /></td>
+                <td><input type="number" name="ComparisonOneName" style="width: 3em" /></td>
+                <td><input type="number" name="ComparisonTwoName" style="width: 3em" /></td>
+                <td><input type="number" name="ComparisonThreeName" style="width: 3em" /></td>
+            </tr>-->
+        </tbody>
+    </table>
+    <input type="submit" value="Upload" />
+</form>
+@{
+}

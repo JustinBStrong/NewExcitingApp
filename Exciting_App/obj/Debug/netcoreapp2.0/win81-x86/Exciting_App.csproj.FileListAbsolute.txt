@@ -1,0 +1,13 @@
+/Users/Justin/Projects/Exciting_App/Exciting_App/bin/Debug/netcoreapp2.0/win81-x86/hostpolicy.dll
+/Users/Justin/Projects/Exciting_App/Exciting_App/bin/Debug/netcoreapp2.0/win81-x86/hostfxr.dll
+/Users/Justin/Projects/Exciting_App/Exciting_App/bin/Debug/netcoreapp2.0/win81-x86/Exciting_App.exe
+/Users/Justin/Projects/Exciting_App/Exciting_App/bin/Debug/netcoreapp2.0/win81-x86/Exciting_App.deps.json
+/Users/Justin/Projects/Exciting_App/Exciting_App/bin/Debug/netcoreapp2.0/win81-x86/Exciting_App.runtimeconfig.json
+/Users/Justin/Projects/Exciting_App/Exciting_App/bin/Debug/netcoreapp2.0/win81-x86/Exciting_App.runtimeconfig.dev.json
+/Users/Justin/Projects/Exciting_App/Exciting_App/bin/Debug/netcoreapp2.0/win81-x86/Exciting_App.dll
+/Users/Justin/Projects/Exciting_App/Exciting_App/bin/Debug/netcoreapp2.0/win81-x86/Exciting_App.pdb
+/Users/Justin/Projects/Exciting_App/Exciting_App/obj/Debug/netcoreapp2.0/win81-x86/Exciting_App.csproj.CoreCompileInputs.cache
+/Users/Justin/Projects/Exciting_App/Exciting_App/obj/Debug/netcoreapp2.0/win81-x86/Exciting_App.AssemblyInfoInputs.cache
+/Users/Justin/Projects/Exciting_App/Exciting_App/obj/Debug/netcoreapp2.0/win81-x86/Exciting_App.AssemblyInfo.cs
+/Users/Justin/Projects/Exciting_App/Exciting_App/obj/Debug/netcoreapp2.0/win81-x86/Exciting_App.dll
+/Users/Justin/Projects/Exciting_App/Exciting_App/obj/Debug/netcoreapp2.0/win81-x86/Exciting_App.pdb
